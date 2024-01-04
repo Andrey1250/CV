@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+    header{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        background: rgb(185, 57, 57);
+        padding: 5px;
+        float: left;
+
+    }
+ 
+    nav {
+     width: 20%;
+     min-height: 1440px;
+     text-align: center;
+
+     background: rgb(107, 176, 116);
+     padding: 5px;
+     padding-bottom: 20px;
+     float: left;
+     
+    }
+ 
+    main {
+     width: 80%;
+     min-height: 1440px;
+     text-align: center;
+     background: rgb(92, 142, 65);
+     padding: 20px;
+     float: left;
+     
+    }
+ 
+ 
+    footer {
+     width: 100%;
+     height: 100px;
+     text-align: center;
+     background: rgb(165, 106, 106);
+     padding: 5px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     float: left;
+    }
+ 
+    ul {
+
+      list-style-type: none;
+    }
+
+  
+
+  
+
+    .list-titles {
+        float:left;
+        text-align:left;
+        font-weight:400;
+        width:20%;
+      }
+
+      .list-content{
+        float:left;
+        width:80%;
+        text-align:left;
+        font-weight:200;
+      }
+
+      .avatarca {
+
+        height:80px; 
+        width:80px;
+        padding-left: 20px;
+      }
+      .git {
+        height:20px; 
+        width:20px;
+      }
+
+      .textcenter {
+        text-align: center;
+        
+      }
+
+      .textleft {
+        text-align: left;
+        padding: 40px;
+      }
+
+      .textleftcv {
+        text-align: left;
+        float: left;  
+      }
+      h3.section-title {
+        color:#66cc99;
+        
+        text-transform:uppercase;
+        font-size:1.2em;
+        margin-bottom:20px;
+        font-weight:400;
+      }
+      .skill-percentage {
+        text-align: left;
+        margin-bottom:10px;
+        position:relative;
+        &::after {
+          content:"";
+          width:100%;
+          height:6px;
+          background:#4a4e51;
+          display:block;
+          margin-top:3px;
+        }
+        
+        &::before{
+          content:"";
+          height:6px;
+          background:#66cc99;
+          position:absolute;
+          margin-top:3px;
+          bottom:0;
+        }
+
+        &:nth-child(1)::before {width:40%;animation: skill_1 0.6s ease;}
+        &:nth-child(2)::before {width:30%; animation: skill_2 0.6s ease;} 
+        &:nth-child(3)::before {width:10%;animation: skill_3 0.6s ease;}
+        &:nth-child(4)::before {width:5%;animation: skill_4 0.6s ease;}
+        &:nth-child(5)::before {width:30%;animation: skill_5 0.6s ease;}
+        &:nth-child(6)::before {width:20%;animation: skill_6 0.6s ease;}
+        &:nth-child(7)::before {width:30%;animation: skill_6 0.6s ease;}
+        &:nth-child(8)::before {width:30%;animation: skill_6 0.6s ease;}
+      }
+      
+    
+    
+    @keyframes skill_1 {from {width:0%;}to {width:40%;}}
+    @keyframes skill_2 {from {width:0%;}to {width:30%;}}
+    @keyframes skill_3 {from {width:0%;}to {width:10%;}}
+    @keyframes skill_4 {from {width:0%;}to {width:5%;}}
+    @keyframes skill_5 {from {width:0%;}to {width:30%;}}  
+    @keyframes skill_6 {from {width:0%;}to {width:20%;}}
+    @keyframes skill_7 {from {width:0%;}to {width:30%;}}
+    @keyframes skill_8 {from {width:0%;}to {width:30%;}}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+
+
+<body>
+
+
+  <header>
+    <div class="textleftcv"><img src="https://android-obzor.com/wp-content/uploads/2022/03/man-silhouette.jpg" class = "avatarca" alt = "profile picture"> </div>
+    <div><h1> Chikilev Andrey  </h1></div>
+  </header>
+       
+  
+  <nav>
+           <div class="textcenter"> List of completed educational projects </div>
+
+          
+   <ul>
+      <li><a href ="./lab/lab1.html ">lab 1 - 1</a></li>
+      <li><a href ="./lab/lab1-2.html ">lab 1 - 2</a></li>
+      <li><a href ="./lab/lab41.html ">lab 4 - 1</a></li>
+      <li><a href ="./lab/lab43.html ">lab 4 - 3</a></li>
+      <li><a href ="./lab/lab61.html ">lab 6 - 1</a></li>
+      <li><a href ="./lab/lab62.html ">lab 6 - 2</a></li>
+      <li><a href ="./lab/lab7site.html ">lab 7 - 1</a></li>
+      <li><a href ="./lab/lab82.html ">lab 8 - 2</a></li>
+      <li><a href ="./lab/lab83.html ">lab 8 - 3</a></li>
+   </ul>
+
+  </nav> 
+
+
+  <main>
+
+    <div>A FEW DETAILS ABOUT YOURSELF<br>
+      Hello. My name is Chikilev. I live and work in the city of Zhlobin.And I'm fond of chess and video games. My education is connected with the railway. I have been working at the Belarusian Railway since 2023 to the present. However, for the purpose of self-development, I decided to try myself in the IT field. I hope I can do it..</div>
+            
+              <ul class="list-titles">
+                <li>Call</li>
+                <li>Mail</li>
+                <li>Home</li>
+              </ul>
+              <ul class="list-content ">
+                <li>+375 (29) 3621131 </li> <!-- YOUR PHONE NUMBER  -->
+                <li>chikilev_03@mail.ru</li> <!-- YOUR EMAIL -->
+                <li>Belarusian,Zlobin</li> <!-- YOUR STATE AND COUNTRY  -->
+              </ul>
+         
+            <h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
+            <ul>
+              <li class="skill-percentage">HTML / HTML5</li>
+              <li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
+              <li class="skill-percentage">Javascript</li>
+              <li class="skill-percentage">Jquery</li>
+              <li class="skill-percentage">C</li>
+              <li class="skill-percentage">Assembler</li>
+              <li class="skill-percentage">Python</li>
+              <li class="skill-percentage">Java</li>
+              
+            </ul>
+
+
+            <div class="textleft">
+              Education:<br>
+              <br>
+              High School №5, Zhlobin city<br>
+              Until 2019<br>
+              <br>
+              Belarusian state University of Transport, Gomel city<br>
+              Automation, telemechanics and communication in railway transport<br>
+              September 2019 - May 2023<br>
+              <br>
+              Institute of Advanced Training and Retraining of Gomel State Technical University 
+              named after P.O. Sukhoi, Gomel city
+              Information systems software<br>
+              November 2023 - to the present time<br>
+              <br>
+              Languages:<br>
+              - Russian — Native<br>
+              - English — A1<br></div>
+
+              <div class="textcenter">Sample code in C</div>
+    <div><pre class="textleft">
+      #include &#60;iostream&#62;
+      #include &#60;string.h&#62;
+                  
+      int main() {
+                    
+          setlocale(LC_ALL, "");
+          char str[255], *p, *last;
+          int i, cou2w = 0, flag = 0,n;
+          printf("Enter the line : ");
+          p = gets(str);
+          i = strlen(str);   
+          for (n = 0; n &#60; i; n++){
+                      
+              if (flag == 1 )
+                  cou2w++;
+              if (str[n] == ' ' && str[n-1] != ' ')
+                  flag++;
+          }
+          if (cou2w > 0 )     
+              printf("The number of letters in the second word: %d\n", cou2w-1 );
+           else:
+              printf("There are less than two words in a line.")        
+                      
+                      
+          return 0;
+        }</pre>    
+    </div>
+  </main>
+       
+
+  <footer>
+    <a href="https://github.com/Andrey1250" target="_blank"> Github: Andrey1250
+      <img  src="https://odvme.com/uploads/posts/2022-12/github.webp" alt="git" class="git"> 
+    </a>
+    <div><h2>2024</h2></div>         
+   </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head><title>Форма</title></head> 
+<body> 
+<form action=""> 
+    <table border="1" cellpadding="5"> 
+        <caption align="left"> 
+            <b> Заказ лекарств </b> 
+        </caption> 
+        <tr> 
+            <td>Название компании<b style="color: red;">*</b></td> 
+            <td><input type="text" name="email" required></td> 
+        </tr> 
+        <tr> 
+            <td>Адрес<b style="color: red;">*</b></td> 
+            <td><input type="password" name="pass" required></td> 
+        </tr> 
+        <tr> 
+            <td>Номер связи<b style="color: red;">*</b></td> 
+            <td><input type="number" name="pass" required></td> 
+        </tr> 
+        <tr> 
+            <td>Тип доставки<b style="color: red;">*</b></td> 
+            <td> 
+                <input type="radio" name="gender" id="g1" value="1" required>
+                    <label for="g1">Машиной</label> 
+                <input type="radio" name="gender" id="g2" value="2"> 
+                    <label for="g2">Поездом</label> 
+            </td> 
+        </tr> 
+        <tr> 
+            <td>Название лекарства<b style="color: red;">*</b></td> 
+            <td><input type="text" name="email" required></td> 
+        </tr>
+        <tr> 
+            <td>Количество</td> 
+            <td> 
+                <select name="year" size="1"> 
+                    <option value="1" selected>1</option> 
+                    <option value="10">10</option> 
+                    <option value="100">100</option> 
+                    <option value="1000">1000</option> 
+                    <option value="10000">10000</option> 
+                    <option value="100000">100000</option>
+                </select> 
+            </td> 
+        </tr> 
+        <tr> 
+            <td>Инструкции по применению</td> 
+            <td> 
+                <input type="checkbox" name="languadg" value="Inglish" checked>Английский<br> 
+                <input type="checkbox" name="languadg" value="Rushen">Русский<br> 
+                <input type="checkbox" name="languadg" value="Doich" checked>Немецкий<br> 
+                <input type="checkbox" name="languadg" value="Spain">Испанский<br> 
+            </td> 
+        </tr> 
+        <tr> 
+            <td colspan="2"> 
+                <textarea name="description" cols="40" rows="10">Коротко о для чего это... </textarea> 
+            </td> 
+        </tr> 
+        <tr> 
+            <td colspan="2"> 
+                <input type="submit" value="Отправить"> 
+                <button type="reset">Сбросить</button> 
+            </td> 
+            
+        </tr> 
+        <tr>
+            <td colspan="2">
+                <b style="color: red;">* - Обезательно заполнять</b> 
+            </td>
+        </tr>
+    </table> 
+    
+</form> 
+</body> 
+</html>

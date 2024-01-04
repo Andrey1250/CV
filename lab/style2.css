@@ -1,0 +1,32 @@
+
+
+
+
+h1 {
+    color:red; 
+    text-align: center;
+}
+
+sup {
+    color:blue;
+}
+
+hr.tab {
+
+    border-style: dotted; 
+    max-width: 15%; 
+    margin-left: -15px
+}
+
+div.clos {
+
+    text-align: center;
+}
+
+div.textleft {
+    margin-left: 40px;
+}
+
+font {
+    font-size: 10px;
+}
